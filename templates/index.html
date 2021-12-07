@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hinglish to English</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/style.css') }}">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="{{ url_for('static',filename='js/index.js') }}"></script>
+    <!-- <style>
+        .cont{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 1px solid blue;
+    margin-top: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5em;
+    width: 50%;
+    border-radius: 20%;
+}
+
+
+.input{
+    -webkit-flex-wrap: wrap;
+    /* border: 2px solid black; */
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 1em;
+    width: 80%;
+    /* display: none; */
+}
+
+#translate{
+    padding: 1em;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: block;
+    width: 50%;
+    font-size: 0.8em;
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    display: flex;
+    padding: 1em;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    /* vertical-align: middle; */
+}
+
+    </style> -->
+</head>
+<body>
+    <div class="header">
+        <h4 class="team">Team: Blazing Leonard</h4>
+        <h4 class="ps">INTL-DA-05</h4>
+    </div>
+    <h2 class="heading">
+        Hinglish to English Translator
+    </h2>
+    <div class="cont">
+        <textarea id="input" class="input" rows="10" cols="100" placeholder="Enter your Hinglish text here..."></textarea>
+        <button id="translate" onclick="hinglishtext()">Translate</button>
+        <textarea id="output" class="input" rows="10" cols="100" placeholder="Translated English text" disabled></textarea>
+    </div>
+</body>
+</html>

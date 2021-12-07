@@ -1,0 +1,102 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    /* background-image: url({{url_for('static',filename='img/bg-hinglish.png')}}); */
+    /* background-image: url('bg-hinglish.png'); */
+    /* opacity: 0.5; */
+    /* background-color: #04383e; */
+    background-image: linear-gradient(to bottom right, #086d78,#0caec0);
+    color: white;
+}
+
+.team,.ps{
+    display: inline;
+    text-align: center;
+}
+
+.cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid #3399ff; */
+    /* background-color: white; */
+    background-image: linear-gradient(to bottom left,#ffffe6,#ffffff);
+    /* box-shadow: 1px 2px #ffffff; */
+/* margin-top: 2em; */
+margin-left: auto;
+margin-right: auto;
+padding: 3em;
+width: 30%;
+border-radius: 20%;
+/* border-color: white; */
+}
+
+
+.input{
+-webkit-flex-wrap: wrap;
+border: 2px solid rgb(rgb(226, 223, 223), green, blue);
+background-color: white;
+backdrop-filter: blur(10px);
+/* border: none; */
+outline: none;
+flex-wrap: wrap;
+margin: auto;
+padding: 1em;
+width: 80%;
+color: black;
+border-radius: 5%;
+/* display: none; */
+}
+
+#translate{
+padding: 1em;
+cursor: pointer;
+margin: auto;
+margin-top: 2em;
+margin-bottom: 2em;
+display: block;
+width: 20%;
+outline: none;
+border: none;
+border-radius: 20%;
+font-size: 1em;
+text-align: center;
+align-items: center;
+background-image: linear-gradient(to bottom right, #086d78,#0caec0);
+color: white;
+box-shadow: 1px 1px black;
+/* background-color: #3399ff; */
+}
+
+#translate:hover{
+    background-image: linear-gradient(to bottom left,#ffffe6,#ffffff);
+    color: #086d78;
+    box-shadow: 2px 2px #086d78;
+}
+
+.header{
+position: sticky;
+top: 0;
+display: flex;
+justify-content: space-between;
+padding: 0.7em;
+/* background-color: #04383e; */
+background-image: linear-gradient(to top, #086d78,#0caec0);
+backdrop-filter: blur(10px);
+align-items: center;
+/* border-bottom: 1px solid #01080e; */
+/* box-shadow:5px 2px 2px 5px #105b9d; */
+/* box-shadow: 2px,5px,5px,2px #105b9d; */
+/* border-top: 1px solid #003566; */
+/* background-color: white; */
+/* vertical-align: middle; */
+}
+
+.heading{
+    color: white;
+    text-align: center;
+    margin-top: 0.7em;
+    /* margin-bottom: 1.5em; */
+    /* position: fixed; */
+}
