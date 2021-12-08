@@ -45,6 +45,7 @@ margin: auto;
 padding: 1em;
 width: 80%;
 color: black;
+font-weight: bold;
 border-radius: 5%;
 /* display: none; */
 }
@@ -60,7 +61,7 @@ width: 20%;
 outline: none;
 border: none;
 border-radius: 20%;
-font-size: 1em;
+font-size: 0.7em;
 text-align: center;
 align-items: center;
 background-image: linear-gradient(to bottom right, #086d78,#0caec0);
