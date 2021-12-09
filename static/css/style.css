@@ -32,6 +32,24 @@ border-radius: 20%;
 /* border-color: white; */
 }
 
+.cont-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid #3399ff; */
+    /* background-color: white; */
+    background-image: linear-gradient(to bottom left,#ffffe6,#ffffff);
+    /* box-shadow: 1px 2px #ffffff; */
+/* margin-top: 2em; */
+margin-left: auto;
+margin-right: auto;
+padding: 3em;
+width: 25%;
+border-radius: 20%;
+margin-bottom: 2em;
+/* border-color: white; */
+}
+
 
 .input{
 -webkit-flex-wrap: wrap;
@@ -49,6 +67,24 @@ font-weight: bold;
 border-radius: 5%;
 /* display: none; */
 }
+
+#email,#password{
+    -webkit-flex-wrap: wrap;
+    border: 2px solid rgb(rgb(226, 223, 223), green, blue);
+    background-color: white;
+    backdrop-filter: blur(10px);
+    /* border: none; */
+    outline: none;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-bottom: 1em;
+    padding: 1em;
+    width: 60%;
+    color: black;
+    font-weight: bold;
+    border-radius: 5%;
+    /* display: none; */
+    }
 
 #translate{
 padding: 1em;
@@ -70,7 +106,36 @@ box-shadow: 1px 1px black;
 /* background-color: #3399ff; */
 }
 
+#login{
+    padding: 1em;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+    width: 20%;
+    outline: none;
+    border: none;
+    border-radius: 20%;
+    font-size: 0.7em;
+    text-align: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom right, #086d78,#0caec0);
+    color: white;
+    box-shadow: 1px 1px black;
+    /* background-color: #3399ff; */
+    }
+.forgot{
+    margin-top: 1em;
+    text-align: center;
+    font-size: smaller;
+    text-decoration: none;
+}
+
 #translate:hover{
+    background-image: linear-gradient(to bottom left,#ffffe6,#ffffff);
+    color: #086d78;
+    box-shadow: 2px 2px #086d78;
+}
+#login:hover{
     background-image: linear-gradient(to bottom left,#ffffe6,#ffffff);
     color: #086d78;
     box-shadow: 2px 2px #086d78;
@@ -100,4 +165,21 @@ align-items: center;
     margin-top: 0.7em;
     /* margin-bottom: 1.5em; */
     /* position: fixed; */
+}
+
+.upload{
+    margin: auto;
+    margin-top: 1em;
+    text-align: center;
+    align-items: center;
+}
+
+#data{
+    padding: 1em;
+    font-size: 0.7em;
+    background-image: linear-gradient(to bottom left,#ffffe6,#ffffff);
+    color: #086d78;
+    box-shadow: 2px 2px #086d78;
+    font-weight: bold;
+    cursor: pointer;
 }

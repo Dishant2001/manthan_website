@@ -14,7 +14,3 @@ function hinglishtext()
     })
 }
 
-function translate()
-{
-    hinglishtext();
-}
